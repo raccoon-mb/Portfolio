@@ -1,0 +1,152 @@
+body {
+    max-width: 1324px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(252, 252, 252);
+}
+header {
+    background-image: url("img/fon.png");
+    height: 697px;
+}
+.fon-up {
+    background-image: url("img/fon-up.png");
+    height: 697px;
+}
+header nav {
+    padding-top: 90px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+header ul li {
+    padding-right: 60px;
+    cursor: pointer;
+}
+header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header ul li:first-child {
+    padding-right: 515px;
+    font-weight: bold;
+}
+header ul li:hover {
+    font-weight: bold;
+}
+.title-text {
+    padding: 20px 153px;
+    margin-top: 130px;
+}
+.title-text h1 {
+    font-size: 64px;
+    line-height: 78px;
+}
+.title-text h5 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+/***********************************/
+.about {
+    color: rgb(0, 0, 0);
+}
+.header-text {
+    padding: 50px 150px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    
+}
+.about p {
+    padding: 0px 150px 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.skill-container {
+    color: rgb(0, 0, 0);
+    background-color: #faf2e5;
+}
+.skill {
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    margin-left: 150px;
+    display: flex;
+
+}
+.skills {
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+}
+.skills p {
+    padding: 45px 0px;
+    text-align: start;
+}
+.level {
+    width: 100%;
+    margin: 4px 0 16px;
+    padding: 0px;
+    height: 16px;
+    font-size: 0;
+    background-color:#F5D6AB;
+
+}
+.level div {
+    height: 16px;
+    background-color: #C66C49;
+}
+/******************************/
+.myWorks-container {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.myWorks {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.photoMyWork {
+    transition: 0.5s;
+}
+.photoMyWork:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px 0px rgb(44, 44, 44);
+}
+figcaption {
+    text-align: center;
+}
+/*********************/
+.contact-container {
+    color: rgb(0, 0, 0);
+    background-color: #faf2e5;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-container ul {
+    list-style: none;
+    margin: 150px 150px 30px;
+}
+.contact-container ul li {
+    margin-bottom: 3px;
+}
+.contact-container a {
+    margin-left: 150px;
+    padding:1px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contact-container a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0.1s;
+    background-color: none;
+}
