@@ -1,0 +1,165 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+/***********************************************/
+.main-header-nav > a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.site-navigation {
+    white-space: nowrap;
+    margin: 30px 0px 30px 0px;
+}
+.site-navigation .site-navigation-item {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.site-navigation .site-navigation-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/************************************************/
+.headline {
+    /*<img src="img/underwater-hotel.jpg" width="1440" height="740" alt="Подводный отель в Дубаи">*/
+    background:url("img/underwater-hotel.jpg") no-repeat;
+    background-size: contain;
+    height: 450px;
+}
+.headline h2 a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.headline h2 {
+    padding-top: 50px;
+}
+.headline p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 190px 360px 0px 360px;
+    font-size: 16px;
+}
+/*************************************************/
+.reviews h2 {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+.reviews-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.reviews-item {
+    width: 350px;
+    list-style: none;
+}
+.reviews-item a {
+    text-decoration: none;
+    color: black;
+}
+.reviews-item a:hover {
+    color: orangered;
+}
+/*************************************************/
+.promo {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.radius-fon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.promo-list {
+    width: 450px;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.promo-list h2 {
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+.promo-list .line {
+    width: 50px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0px 200px 0px 200px;
+}
+.promo-list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    background-color: orangered;
+    width: 100px;;
+}
+/*******************************************/
+.main-footer {
+    background-color: gray;
+    white-space: nowrap;
+}
+.main-footer>a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.footer-navigation {
+    margin: 30px 0px 30px 0px;
+}
+.footer-navigation-item {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.footer-navigation-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.footer-line {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid rgb(161, 161, 161);
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px;
+}
+.social-list-item {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    margin-right: 10px;
+    border-radius: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-list-item a {
+    text-decoration: none;
+    color: white;
+}
