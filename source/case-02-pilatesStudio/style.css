@@ -1,0 +1,281 @@
+head,
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+.header-bigBubble {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(139, 179, 60);
+    border-radius: 50%;
+    transform: translateX(-30%) translateY(-40%);
+    position: absolute;
+    z-index: 100;
+}
+.header-averageBubble {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(181, 209, 124);
+    border-radius: 50%;
+    transform: translateX(690px) translateY(150px);
+    position: absolute;
+    z-index: 100;
+}
+.header-litleBubble {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(181, 209, 124);
+    border-radius: 50%;
+    transform: translateX(1090px) translateY(100px);
+    position: absolute;
+    z-index: 100;
+}
+.header-borderBubble {
+    width: 40px;
+    height: 40px;
+    border: 10px solid rgb(181, 209, 124);
+    border-radius: 50%;
+    transform: translateX(1220px) translateY(10px);
+    position: absolute;
+    z-index: 100;
+}
+/**************************************************************************************************************************************/
+.main-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo {
+    margin: 0px 50px 0px 50px;
+    position: relative;
+    z-index: 200;
+}
+.site-navigation {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 200;
+    list-style: none;
+}
+.site-navigation-item {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    z-index: 200;
+}
+.header-phone a {
+    text-decoration: none;
+    color: black;
+    margin-left: 370px;
+}
+.site-navigation-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 200;
+}
+/**************************************************************************************************************************************/
+.key {
+    position: relative;
+    z-index: 200;
+    padding: 0px 0px 0px 50px;
+    height: 550px;
+
+}
+.key img {
+    position: relative;
+    z-index: 200;
+    transform: translateX(230px) translateY(-450px) scale(0.9);
+    padding: 0px;
+    margin: 0px;
+}
+.key h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    color: white;
+    margin: 80px 0px 0px 0px;
+}
+.key h2 {
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.key a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.key a:hover {
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+    transition: 0.2s;
+}
+/**************************************************************************************************************************************/
+.about {
+    height: 750px;
+}
+.about h2 {
+    font-size: 42px;
+}
+.about div {
+    padding: 0px 0px 0px 50px;
+    width: 300px;
+}
+.about div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.about img {
+    position: relative;
+    z-index: 200;
+    transform: translateX(300px) translateY(-240px);
+}
+/*******************************************************************************************************************************/
+.tariff {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 100px;
+}
+.tariff h2 {
+    font-size: 42px;
+}
+.fon-nomber-1 {
+    width: 100%;
+    height: 100%;
+    font-size: 250px;
+    font-weight: 900;
+    position: absolute;
+    transform: translateX(-40px) translateY(-130px);
+    opacity: 0.1;
+}
+.fon-nomber-2 {
+    width: 100%;
+    height: 100%;
+    font-size: 250px;
+    font-weight: 900;
+    position: absolute;
+    transform: translateX(-40px) translateY(-130px);
+    opacity: 0.1;
+}
+.fon-nomber-3 {
+    width: 100%;
+    height: 100%;
+    font-size: 250px;
+    font-weight: 900;
+    position: absolute;
+    transform: translateX(-40px) translateY(-130px);
+    opacity: 0.1;
+}
+.tariff-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tariff-list .tariff-item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(211, 238, 186);
+    border-radius: 5px;
+}
+.tariff-list .tariff-item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(178, 214, 145);
+    border-radius: 5px;
+}
+.tariff-list .tariff-item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(140, 168, 113);
+    border-radius: 5px;
+}
+.tariff-list p {
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.tariff-list h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.tariff-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 55px;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.tariff-header span {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+/**************************************************************************************************************************************/
+.comments {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 100px;
+}
+.comments h2 {
+    font-size: 42px;
+}
+.comments-list {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.comments-list .comments-item {
+    background-color: white;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 280px;
+    height: 450px;
+    box-shadow: 0px 0px 20px 5px rgb(192, 192, 192);
+}
+.comments-item img {
+    border-radius: 50%;
+}
+/*************************************************************************************************************************************/
+.main-footer {
+    background-color: rgb(139, 179, 60);
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-footer .cpyright {
+    color: white;
+}
+.main-footer .social-list {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-list-item img{
+    color: white;
+}
+.main-footer .social-list a {
+    margin-right: 0px;
+}
