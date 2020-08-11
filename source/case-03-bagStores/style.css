@@ -1,0 +1,185 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    background-color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0px 50px;
+}
+.list-navigation {
+    white-space: nowrap;
+    list-style: none;
+    margin-left: 143px;
+}
+.list-navigation-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+.list-navigation-item a{
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 5px;
+}
+.list-navigation-item a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    transition: 0.1s;
+}
+/*************************************************************************************************************************************/
+.title-baner-text {
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+.title-baner-text h1 {
+    color: rgb(226, 197, 142);
+    font-size: 119px;
+    margin: 44px 0px 0px 0px;
+    position: relative;
+    z-index: 200;
+}
+.title-baner-text h2 {
+    font-size: 54px;
+    margin:0px 0px 0px 0px;
+    position: relative;
+    z-index: 200;
+}
+.title-baner-text h5 {
+    margin: 10px 0px 30px 0px;
+}
+.conect {
+    font-size: 12px;
+    background-color:rgb(226, 197, 142);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(136, 99, 34);
+    border: none;
+    cursor: pointer;
+}
+.title-baner img {
+    position: absolute;
+    transform: translateX(395px) translateY(-420px);
+    z-index: 100;
+}
+/*************************************************************************************************************************************/
+.title-content-new{
+    text-align: center;
+    margin: 200px 0px 50px 0px;
+}
+.title-content-new h1 {
+    color: rgb(224, 188, 119);
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+.title-content-news{
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+}
+.title-content-news h1 {
+    color: rgb(224, 188, 119);
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+/*************************************************************************************************************************************/
+.novelties {
+    display: flex;
+    justify-content: center;
+}
+.bag {
+    text-align: center;
+}
+/*************************************************************************************************************************************/
+.breand {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 0px 0px;
+}
+/*************************************************************************************************************************************/
+.news-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.news-list-item {
+    width: 315px;
+    height: 480px;
+}
+.news-list-item img {
+    margin-bottom: 10px;
+}
+.news-list-item h3 {
+    text-transform: uppercase;
+}
+.news-list-item time {
+    font-size: 14px;
+    font-weight: bold;
+}
+.news-list-item p {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+}
+.news-list-item a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left:160px;
+    cursor: pointer;
+}
+/*************************************************************************************************************************************/
+.comments {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.comments-item {
+    width: 300px;
+    height: 180px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding:10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    line-height: 23px;
+}
+.border-comments-item {
+    border-left: 1px solid rgb(212, 212, 212);
+    border-right: 1px solid rgb(212, 212, 212);
+}
+.comments-item-name {
+    color: black;
+}
+/*************************************************************************************************************************************/
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+.main-footer-navigation ul {
+    padding:0px;
+    list-style: none;
+}
+.main-footer-navigation a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.main-footer-navigation a:hover {
+    border-bottom: 2px solid rgb(148, 148, 148);
+}
+.social-list {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
